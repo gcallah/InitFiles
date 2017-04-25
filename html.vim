@@ -7,7 +7,7 @@ map > i<details><summary></summary></details>
 " break up a line
 map \ s
 " insert a list item
-map  o<li></li>
+map  o<li></li>O
 " create hyperlink
 map  o<a href=""></a>3hi
 " create a list
