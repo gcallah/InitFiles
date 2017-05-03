@@ -58,3 +58,4 @@ export PATH="/Users/gcallah/GitProjects/utils":"$PATH"
 # Tidy for Mac OS X by balthisar.com is adding the new path for Tidy.
 export PATH=/usr/local/bin:$PATH
 
+cd $GDIR/InitFiles; git pull origin master
