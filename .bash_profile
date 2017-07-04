@@ -59,3 +59,6 @@ export PATH="/Users/gcallah/GitProjects/utils":"$PATH"
 export PATH=/usr/local/bin:$PATH
 
 cd $GDIR/InitFiles; git pull origin master
+
+# added by Miniconda3 4.3.21 installer
+export PATH="/Users/gcallah/miniconda3/bin:$PATH"
