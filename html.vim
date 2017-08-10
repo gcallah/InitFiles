@@ -45,6 +45,7 @@ ab emp &empty;
 ab ge &ge;
 ab gt &gt;
 ab inf &infin;
+ab iff &iff;
 ab le &le;
 ab lt &lt;
 ab nb &nbsp;
