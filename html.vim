@@ -1,7 +1,7 @@
 " mappings for html editing
 
 " create html skeleton
-map g i<!DOCTYPE html><html><head><link href="style.css" rel="stylesheet" type="text/css"/><title></title></head><body><h1></h1></body></html>
+map g i<!DOCTYPE html><html><head><meta charset="UTF-8"><link href="style.css" rel="stylesheet" type="text/css"/><title></title></head><body><h1></h1></body></html>
 " details and summary
 map > i<details><summary class="sumX"></summary></details>
 " break up a line
