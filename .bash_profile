@@ -67,7 +67,9 @@ export PATH=/usr/local/bin:$PATH
 # let's update our main repos:
 cd $GDIR/algorithms; git pull origin master
 cd $GDIR/Algocynfas; git pull origin master
+cd $GDIR/DevOps; git pull origin master
 cd $GDIR/DiscreteMathematics; git pull origin master
+cd $GDIR/Emu86; git pull origin master
 cd $GDIR/InitFiles; git pull origin master
 cd $GDIR/utils; git pull origin master
 
