@@ -6,6 +6,8 @@ map g i<!DOCTYPE html><html><head><meta charset="UTF-8"><link href="style.cs
 map > i<details><summary class="sumX"></summary></details>
 " break up a line
 map \ s
+" insert code
+map { o<p><code><pre></pre></code></p>
 " insert a list item
 map  o<li></li>O
 " create hyperlink
@@ -21,7 +23,7 @@ map  0o<p></p>kO
 " create a table
 map  0o<table><tr><th></th></tr><tr><td></td></tr></table>
 " figure with caption
-map  0o<figure>    <img src=""><figcaption></figcaption></figure>
+map  0o<figure><img src=""><figcaption></figcaption></figure>
 " multiple choice question
 map  i<ol><li></li><li><ol type="a"><li></li><li><li></li><li></li></ol></ol>
 " headings 1-4:
