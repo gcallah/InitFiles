@@ -51,6 +51,7 @@ ab inf &infin;
 ab ik <i>k</i>
 ab ip <i>p</i>
 ab iq <i>q</i>
+ab ir <i>r</i>
 ab le &le;
 ab lt &lt;
 ab nb &nbsp;
