@@ -46,8 +46,11 @@ ab bl/ </blockquote>
 ab emp &empty;
 ab ge &ge;
 ab gt &gt;
-ab inf &infin;
 ab iff &iff;
+ab inf &infin;
+ab ik <i>k</i>
+ab ip <i>p</i>
+ab iq <i>q</i>
 ab le &le;
 ab lt &lt;
 ab nb &nbsp;
