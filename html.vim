@@ -52,6 +52,9 @@ ab ik <i>k</i>
 ab ip <i>p</i>
 ab iq <i>q</i>
 ab ir <i>r</i>
+ab ix <i>x</i>
+ab iy <i>y</i>
+ab iz <i>z</i>
 ab le &le;
 ab lt &lt;
 ab nb &nbsp;
