@@ -44,11 +44,15 @@ ab ahr <a href="">
 ab blq <blockquote>
 ab bl/ </blockquote>
 ab emp &empty;
+ab fa &forall;
 ab ge &ge;
 ab gt &gt;
 ab iff &iff;
 ab inf &infin;
 ab ik <i>k</i>
+ab il <i>l</i>
+ab im <i>m</i>
+ab ni <i>n</i>
 ab ip <i>p</i>
 ab iq <i>q</i>
 ab ir <i>r</i>
@@ -66,5 +70,6 @@ ab sup2 <sup>2</sup>
 ab sup3 <sup>3</sup>
 ab sube &sube;
 ab subs &sub;
+ab te &exist;
 ab theta &theta;
 ab uni &cup;
