@@ -49,6 +49,9 @@ ab ge &ge;
 ab gt &gt;
 ab iff &iff;
 ab inf &infin;
+ab ia <i>a</i>
+ab ib <i>b</i>
+ab ic <i>c</i>
 ab ik <i>k</i>
 ab il <i>l</i>
 ab im <i>m</i>
