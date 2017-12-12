@@ -54,6 +54,7 @@ ab il <i>l</i>
 ab im <i>m</i>
 ab ni <i>n</i>
 ab ip <i>p</i>
+ab iP <i>P</i>
 ab iq <i>q</i>
 ab ir <i>r</i>
 ab ix <i>x</i>
@@ -64,6 +65,7 @@ ab lt &lt;
 ab nb &nbsp;
 ab ne &ne;
 ab omega &omega;
+ab ra &rarr;
 ab sigma &sigma;
 ab sq &radic;
 ab sup2 <sup>2</sup>
@@ -71,5 +73,6 @@ ab sup3 <sup>3</sup>
 ab sube &sube;
 ab subs &sub;
 ab te &exist;
+ab t4 &there4;
 ab theta &theta;
 ab uni &cup;
