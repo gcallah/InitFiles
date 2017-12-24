@@ -64,16 +64,6 @@ export PATH="/Users/gcallah/GitProjects/utils":"$PATH"
 # Tidy for Mac OS X by balthisar.com is adding the new path for Tidy.
 export PATH=/usr/local/bin:$PATH
 
-# let's update our main repos:
-cd $GDIR/algorithms; git pull origin master
-cd $GDIR/Algocynfas; git pull origin master
-cd $GDIR/DevOps; git pull origin master
-cd $GDIR/DiscreteMathematics; git pull origin master
-cd $GDIR/Emu86; git pull origin master
-cd $GDIR/FourCritics; git pull origin master
-cd $GDIR/InitFiles; git pull origin master
-cd $GDIR/utils; git pull origin master
-
 # added by Miniconda3 4.3.21 installer
 # export PATH="/Users/gcallah/miniconda3/bin:$PATH"
 
@@ -81,3 +71,8 @@ cd $GDIR/utils; git pull origin master
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 export PATH
+
+# let's update our main repos:
+cd $HOME
+$HOME/repo_update.sh
+cd $HOME
