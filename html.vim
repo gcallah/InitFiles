@@ -61,6 +61,8 @@ ab iP <i>P</i>
 ab iQ <i>Q</i>
 ab iq <i>q</i>
 ab ir <i>r</i>
+ab si <i>s</i>
+ab ti <i>t</i>
 ab ix <i>x</i>
 ab iy <i>y</i>
 ab iz <i>z</i>
