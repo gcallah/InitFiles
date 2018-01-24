@@ -1,16 +1,21 @@
 #!/bin/sh
 
 # how to get my vim setup on a new machine
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+export VIM_DIR=~/.vim
+export INIT_DIR=~/GitProjects/InitFiles
+git clone https://github.com/VundleVim/Vundle.vim.git $VIM_DIR/bundle/Vundle.vim
 
-cd ~/.vim/bundle
-git clone git://github.com/tpope/vim-surround.git
-git clone git://github.com/tpope/vim-repeat.git
+cd $VIM_DIR/bundle; git clone git://github.com/tpope/vim-surround.git
+cd $VIM_DIR/bundle; git clone git://github.com/tpope/vim-repeat.git
 
-cd ~/.vim
-git clone https://github.com/vim-scripts/indentpython.vim.git indent
+cd $VIM_DIR; git clone https://github.com/vim-scripts/indentpython.vim.git indent
 
-mkdir colors
+mkdir $VIM_DIR/colors || true  # in case dir is there
 
-cp ~/GitProjects/InitFiles/zenburn.vim colors
+cp $INIT_DIR/zenburn.vim $VIM_DIR/colors
 
+# get file type specific stuff setup
+mkdir $VIM_DIR/after || true
+mkdir $VIM_DIR/after/ftplugin || true
+cd $VIM_DIR/after/ftplugin; ln -s $INIT_DIR/html.vim .
+cd $VIM_DIR/after/ftplugin; ln -s $INIT_DIR/python.vim .
