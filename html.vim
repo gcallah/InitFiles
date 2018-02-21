@@ -4,12 +4,16 @@
 map ^ i<!DOCTYPE html><html><head><meta charset="UTF-8"><link href="style.css" rel="stylesheet" type="text/css"/><title></title></head><body><h1></h1></body></html>
 " details and summary
 map > i<details><summary class="sumX"></summary></details>
+" add italics to a word
+map I ys1w<i>
 " break up a line
 map \ s
 " insert code
 map { o<p><code><pre></pre></code></p>
 " insert a list item
 map  o<li></li>O
+" run grep
+map  :!grep 
 " create hyperlink
 map  o<a href=""></a>3hi
 " create a list
