@@ -55,3 +55,5 @@ function! ToggleSyntax()
 endfunction
 
 nmap <silent>  ;s  :call ToggleSyntax()<CR>
+" run grep
+map  :!grep 

@@ -12,8 +12,6 @@ map \ s
 map { o<p><code><pre></pre></code></p>
 " insert a list item
 map  o<li></li>O
-" run grep
-map  :!grep 
 " create hyperlink
 map  o<a href=""></a>3hi
 " create a list
