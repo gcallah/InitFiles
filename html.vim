@@ -6,6 +6,8 @@ map ^ i<!DOCTYPE html><html><head><meta charset="UTF-8"><link href="style.cs
 map > i<details><summary class="sumX"></summary></details>
 " add italics to a word
 map I ys1w<i>
+" add subscript to a word
+map S ys1w<sub>
 " break up a line
 map \ s
 " insert code
