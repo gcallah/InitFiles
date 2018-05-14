@@ -17,6 +17,7 @@ then
     cd $GDIR/FourCritics; git pull origin master
     cd $GDIR/InitFiles; git pull origin master
     cd $GDIR/OOP; git pull origin master
+    cd $GDIR/TechManagement; git pull origin master
     cd $GDIR/utils; git pull origin master
 
     cd $HOME; rm $REPO_SEM
