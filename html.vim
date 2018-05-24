@@ -8,6 +8,8 @@ map > i<details><summary class="sumX"></summary></details>
 map I ys1w<i>
 " add subscript to a word
 map S ys1w<sub>
+" run word count on current file
+map W :!wc %
 " break up a line
 map \ s
 " insert code
