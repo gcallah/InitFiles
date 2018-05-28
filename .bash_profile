@@ -43,6 +43,7 @@ alias python="python3"
 alias rat="cd $GDIR/Rationalism"
 alias sch="cd $GDIR/indras_net/schelling"
 alias sta="cd $GDIR/statistics"
+alias tech="cd $GDIR/TechManagement"
 alias utl="cd $GDIR/utils"
 alias xv6="cd $GDIR/xv6-public"
 
