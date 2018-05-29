@@ -59,7 +59,7 @@ alias gs="git status"
 # added by Anaconda3 2.1.0 installer
 export PATH="/Users/gcallah/anaconda/bin:$PATH"
 
-export PYTHONPATH="$GDIR/indra:$GDIR/mesa:$PYTHONPATH"
+export PYTHONPATH="$GDIR/indras_net:$GDIR/mesa:$PYTHONPATH"
 
 export PATH="/Users/gcallah/gcc-cross/toolchain/bin":"$PATH"
 
