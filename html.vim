@@ -15,7 +15,7 @@ map \ s
 " insert code
 map { o<p><code><pre></pre></code></p>
 " insert a list item
-map  o<li></li>O
+map  o<li></li>
 " create hyperlink
 map  o<a href=""></a>3hi
 " create a list
