@@ -17,7 +17,7 @@ map ! o<p><code><pre></pre></code></p>
 " insert code begin tag
 map { i<code>
 " insert code end tag
-map } i<code>
+map } a</code>
 " insert a list item
 map  o<li></li>
 " create hyperlink
