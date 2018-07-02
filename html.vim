@@ -13,7 +13,11 @@ map W :!wc %
 " break up a line
 map \ s
 " insert code
-map { o<p><code><pre></pre></code></p>
+map ! o<p><code><pre></pre></code></p>
+" insert code begin tag
+map { i<code>
+" insert code end tag
+map } i<code>
 " insert a list item
 map  o<li></li>
 " create hyperlink
