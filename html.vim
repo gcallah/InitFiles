@@ -15,7 +15,7 @@ map \ s
 " insert code
 map ! o<p><code><pre></pre></code></p>
 " insert code begin tag
-map { i<code>
+map { a<code>
 " insert code end tag
 map } a</code>
 " insert a list item
