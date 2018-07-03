@@ -20,18 +20,14 @@ PS1="$LIGHT_GRAY\$(date +%H:%M) \w$YELLOW \$(parse_git_branch)$LIGHT_GREEN\$ $LI
 source virtualenvwrapper.sh &> /dev/null
 
 export
-DJANGO_SITE=$HOME/mysite
-EMU_SITE=$HOME/Emu86
-
-export
 PYTHONPATH=$PYTHONPATH:$HOME/Indra:$DJANGO_SITE:$DJANGO_SITE/berkeley
 
 export PATH=$PATH:$HOME/utils:
 
 export DJANGO_SETTINGS_MODULE=mysite.settings
 
-alias gpull="git pull origin master"
-alias gpush="git push origin master"
+alias gpullm="git pull origin master"
+alias gpushm="git push origin master"
 
 alias g++="g++ -std=c++11"
 alias oop="cd $HOME/OOP"
