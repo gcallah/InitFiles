@@ -19,7 +19,7 @@ map { a<code>
 " insert code end tag
 map } a</code>
 " insert a list item
-map  o<li></li>
+map  o<li></li>kO
 " create hyperlink
 map  o<a href=""></a>3hi
 " create a list
@@ -92,3 +92,5 @@ ab te &exist;
 ab t4 &there4;
 ab theta &theta;
 ab uni &cup;
+ab <c <code>
+ab </c </code>
