@@ -94,3 +94,8 @@ ab theta &theta;
 ab uni &cup;
 ab <c <code>
 ab </c </code>
+ab <sc <span class="comment">
+ab <sd <span class="double">
+ab <sk <span class="keyword">
+ab <ss <span class="string">
+ab </s </span>
