@@ -99,4 +99,5 @@ ab scc class="comment">
 ab scd class="double">
 ab sck class="keyword">
 ab scs class="string">
+ab sct class="type">
 ab </s </span>
