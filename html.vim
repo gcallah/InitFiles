@@ -23,7 +23,7 @@ map  o<li></li>kO
 " create hyperlink
 map  o<a href=""></a>3hi
 " create a list
-map  0o<ul><li></li></ul>
+map  0o<ul><li></li><li></li></ul>
 " insert an empty line
 map  o
 " insert a break
