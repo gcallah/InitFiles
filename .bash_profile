@@ -6,6 +6,8 @@ export PATH
 
 export GDIR="$HOME/GitProjects"
 
+ulimit -c unlimited
+
 set editing-mode vi
 
 alias pro=". ~/.bash_profile"
