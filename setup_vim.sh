@@ -19,3 +19,4 @@ mkdir $VIM_DIR/after || true
 mkdir $VIM_DIR/after/ftplugin || true
 cd $VIM_DIR/after/ftplugin; ln -s $INIT_DIR/html.vim .
 cd $VIM_DIR/after/ftplugin; ln -s $INIT_DIR/python.vim .
+cd $VIM_DIR/after/ftplugin; ln -s $INIT_DIR/text.vim .
