@@ -14,9 +14,10 @@ then
     cd $GDIR/DevOps; git pull origin master
     cd $GDIR/DiscreteMathematics; git pull origin master
     cd $GDIR/Emu86; git pull origin master
-    cd $GDIR/FourCritics; git pull origin master
+    cd $GDIR/indras_net; git pull origin master
     cd $GDIR/InitFiles; git pull origin master
     cd $GDIR/OOP; git pull origin master
+    cd $GDIR/Rationalism; git pull origin master
     cd $GDIR/TechManagement; git pull origin master
     cd $GDIR/utils; git pull origin master
 
