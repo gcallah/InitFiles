@@ -72,6 +72,8 @@ export PATH="/Users/gcallah/gcc-cross/toolchain/bin":"$PATH"
 
 export PATH="/Users/gcallah/GitProjects/utils":"$PATH"
 
+export PATH="$PATH:/usr/local/mysql/bin"
+
 # Tidy for Mac OS X by balthisar.com is adding the new path for Tidy.
 export PATH=/usr/local/bin:$PATH
 
