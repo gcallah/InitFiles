@@ -7,7 +7,7 @@ noremap R :w<ENTER>:!python %
 " grep
 map g :!grep 
 
-map # o"""<CR>    Args:<CR><CR><Esc>i        Returns:<CR><CR><Esc>i    """<Esc>
+map # o"""<CR><CR>i"""<Esc>
 map  idef ():ki
 map  oimport
 " insert an empty line
