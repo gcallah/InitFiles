@@ -18,7 +18,7 @@ then
     cd $GDIR/InitFiles; git pull origin master
     cd $GDIR/OnlineDevops; git pull origin master
     cd $GDIR/OOP; git pull origin master
-    cd $GDIR/Rationalism; git pull origin master
+    cd $GDIR/Scheduler; git pull origin master
     cd $GDIR/TechManagement; git pull origin master
     cd $GDIR/utils; git pull origin master
 
