@@ -10,6 +10,7 @@ Plugin 'tpope/vim-repeat.git'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'rykka/riv.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
