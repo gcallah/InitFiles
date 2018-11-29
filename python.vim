@@ -9,6 +9,7 @@ map g :!grep
 
 map # o"""<CR><CR>"""<Esc>
 map  idef ():ki
+map  :!pydoc 
 map  oimport
 " insert an empty line
 map  o
