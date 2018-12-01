@@ -11,6 +11,8 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'rykka/riv.vim'
+Plugin 'powerline/powerline'
+Plugin 'klen/python-mode'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -43,6 +45,8 @@ if has('gui_running')
 else
     colorscheme zenburn
 endif
+
+let g:pymode_python = 'python3'
 
 let loaded_matchparen = 1
 noremap #5 :!./%
