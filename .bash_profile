@@ -1,8 +1,4 @@
 # Adding comment to test hardlinking to git repo.
-# Setting PATH for Python 3.4
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
-export PATH
 
 export GDIR="$HOME/GitProjects"
 
@@ -66,9 +62,6 @@ alias gpushd="git push origin dev"
 alias gpulld="git pull origin dev"
 alias gs="git status"
 
-# added by Anaconda3 2.1.0 installer
-export PATH="/Users/gcallah/anaconda/bin:$PATH"
-
 export PYTHONPATH="$GDIR/indras_net:$GDIR/mesa:$PYTHONPATH"
 
 export PATH="/Users/gcallah/gcc-cross/toolchain/bin":"$PATH"
@@ -77,11 +70,7 @@ export PATH="/Users/gcallah/GitProjects/utils":"$PATH"
 
 export PATH="$PATH:/usr/local/mysql/bin"
 
-# Tidy for Mac OS X by balthisar.com is adding the new path for Tidy.
-export PATH=/usr/local/bin:$PATH
-
-# added by Miniconda3 4.3.21 installer
-# export PATH="/Users/gcallah/miniconda3/bin:$PATH"
+export PATH="/usr/local/Cellar/vim/8.1.0550/bin:$PATH"
 
 # Setting PATH for Python 3.6
 # The original version is saved in .bash_profile.pysave
