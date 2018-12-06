@@ -8,7 +8,6 @@ then
 # set a semaphore:
     touch $REPO_SEM
     
-    cd $GDIR/algorithms; git pull origin master
     cd $GDIR/Algocynfas; git pull origin master
     cd $GDIR/BookReviews; git pull origin master
     cd $GDIR/DevOps; git pull origin master
@@ -19,6 +18,7 @@ then
     cd $GDIR/NYCOpenRecords; git pull origin master
     cd $GDIR/OnlineDevops; git pull origin master
     cd $GDIR/OOP; git pull origin master
+    cd $GDIR/Rationalism; git pull origin master
     cd $GDIR/Scheduler; git pull origin master
     cd $GDIR/TechManagement; git pull origin master
     cd $GDIR/utils; git pull origin master
