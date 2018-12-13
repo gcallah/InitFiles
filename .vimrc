@@ -40,12 +40,7 @@ set encoding=utf-8
 
 syntax on
 
-if has('gui_running')
-    set background=dark
-    colorscheme solarized
-else
-    colorscheme zenburn
-endif
+colorscheme zenburn
 
 let g:pymode_python = 'python3'
 
