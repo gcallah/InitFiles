@@ -15,6 +15,7 @@ then
     cd $GDIR/Emu86; git pull origin master
     cd $GDIR/indras_net; git pull origin master
     cd $GDIR/InitFiles; git pull origin master
+    cd $GDIR/NYCOpenDocs; git pull origin master
     cd $GDIR/NYCOpenRecords; git pull origin master
     cd $GDIR/OnlineDevops; git pull origin master
     cd $GDIR/OOP; git pull origin master
