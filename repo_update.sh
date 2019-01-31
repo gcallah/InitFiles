@@ -16,9 +16,9 @@ then
     cd $GDIR/indras_net; git pull origin master
     cd $GDIR/InitFiles; git pull origin master
     cd $GDIR/NYCOpenDocs; git pull origin master
-    cd $GDIR/NYCOpenRecords; git pull origin master
     cd $GDIR/OnlineDevops; git pull origin master
     cd $GDIR/OOP; git pull origin master
+    cd $GDIR/OOP2; git pull origin master
     cd $GDIR/Rationalism; git pull origin master
     cd $GDIR/Scheduler; git pull origin master
     cd $GDIR/TechManagement; git pull origin master
