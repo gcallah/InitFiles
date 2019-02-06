@@ -26,30 +26,6 @@ export PATH=$PATH:$HOME/utils:
 
 export DJANGO_SETTINGS_MODULE=mysite.settings
 
-alias gpullm="git pull origin master"
-alias gpushm="git push origin master"
+export GDIR=$HOME
 
-alias g++="g++ -std=c++11"
-alias oop="cd $HOME/OOP"
-
-alias alg="cd $HOME/algorithms"
-
-alias doc="cd $HOME/Indra/docs"
-alias ind="cd $HOME/Indra/indra"
-alias sch="cd $HOME/Indra/schelling"
-
-alias sta="cd $HOME/statistics"
-
-alias emu="cd $EMU_SITE/Emu86"
-alias etem="cd $EMU_SITE/Emu86/templates"
-alias ecss="cd $EMU_SITE/mysite/static/Emu86"
-
-alias css="cd $DJANGO_SITE/mysite/static/berkeley"
-alias ber="cd $DJANGO_SITE/berkeley"
-alias mig="cd $DJANGO_SITE/berkeley/migrations"
-alias sit="cd $DJANGO_SITE/mysite"
-alias tem="cd $DJANGO_SITE/berkeley/templates"
-alias top="cd $DJANGO_SITE"
-
-workon django19
-cd $HOME/OOP; git pull origin master
+source alias.sh
