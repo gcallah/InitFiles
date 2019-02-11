@@ -7,4 +7,4 @@ map ^ :!g++ -std=c++11 -c %
 map m :!make %:r
 
 " run:
-map ! :!./%:r
+map R :!./%:r
