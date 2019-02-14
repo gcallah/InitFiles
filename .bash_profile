@@ -8,7 +8,8 @@ set editing-mode vi
 
 alias pro=". ~/.bash_profile"
 
-source alias.sh
+# source alias.sh
+. ./alias.sh
 
 export PYTHONPATH="$GDIR/indras_net:$GDIR/mesa:$PYTHONPATH"
 
