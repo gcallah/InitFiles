@@ -28,4 +28,4 @@ export DJANGO_SETTINGS_MODULE=mysite.settings
 
 export GDIR=$HOME
 
-source alias.sh
+. ./ alias.sh
