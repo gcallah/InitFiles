@@ -46,6 +46,7 @@ alias sta="cd $GDIR/statistics"
 alias tdev="cd $GDIR/OnlineDevops"
 alias tech="cd $GDIR/TechManagement"
 alias utl="cd $GDIR/utils"
+alias wthr="cd $GDIR/OOP2/code/weather"
 alias xv6="cd $GDIR/xv6-public"
 
 alias ga="git add"
