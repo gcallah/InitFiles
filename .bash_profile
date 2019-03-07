@@ -11,7 +11,7 @@ alias pro=". ~/.bash_profile"
 # source alias.sh
 . ./alias.sh
 
-export PYTHONPATH="$GDIR/indras_net:$GDIR/mesa:$PYTHONPATH"
+export PYTHONPATH="$GDIR/indras_net:$PYTHONPATH"
 
 export PATH="/Users/gcallah/gcc-cross/toolchain/bin":"$PATH"
 
