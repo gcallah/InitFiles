@@ -26,8 +26,3 @@ export PATH="/usr/local/Cellar/vim/8.1.0550/bin:$PATH"
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 export PATH
 
-# we could update our main repos, but this has been troublesome in
-# the past, so for now, no!
-#cd $HOME
-#$HOME/repo_update.sh
-#cd $HOME
