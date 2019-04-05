@@ -19,6 +19,7 @@ filetype plugin indent on    " required
 filetype plugin on
 
 autocmd BufRead,BufNewFile *.ptml set filetype=html
+autocmd BufRead,BufNewFile *.txt set filetype=html
 
 set number
 set history=50
