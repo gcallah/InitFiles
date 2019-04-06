@@ -7,7 +7,7 @@ noremap R :w<ENTER>:!python %
 " grep
 map g :!grep 
 
-map # o"""<CR><CR>"""<Esc>ki
+map # o"""<CR>"""<Esc>O
 map  idef ():ki
 map  :!pydoc 
 map  oimport
