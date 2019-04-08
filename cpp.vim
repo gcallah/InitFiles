@@ -8,3 +8,6 @@ map m :!make %:r
 
 " run:
 map R :!./%:r
+
+" block comment:
+map # o/*<CR>*/<Esc>O
