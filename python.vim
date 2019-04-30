@@ -8,7 +8,7 @@ noremap R :w<ENTER>:!python %
 map g :!grep 
 
 " run:
-map R :!python3 %r
+map R :!python3 %
 
 map # o"""<CR>"""<Esc>O
 map  idef ():ki
