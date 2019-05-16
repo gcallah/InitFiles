@@ -50,7 +50,7 @@ map <F8> j0i    
 " delete chars at beg. of line
 map <F9> j04x
 
-ab ahr <a href="">
+ab ahr <a href=""></a>
 ab blq <blockquote>
 ab bl/ </blockquote>
 ab emp &empty;
