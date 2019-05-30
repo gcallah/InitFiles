@@ -7,7 +7,7 @@ map ^ :!g++ -std=c++11 -c %
 map m :!make %:r
 
 " run:
-map R :!tests/%:r
+map R :!./%:r
 
 " block comment:
 map # o/*<CR>*/<Esc>O
