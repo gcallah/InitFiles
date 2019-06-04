@@ -2,7 +2,7 @@
 alias 2p="cd $GDIR/ToPOrNotToP"
 alias agl="cd $GDIR/AgileCourseware"
 alias alg="cd $GDIR/algorithms"
-alias api="cd $GDIR/indras_net/IndrasNetFlask"
+alias api="cd $GDIR/indras_net/APIServer"
 alias arat="cd $GDIR/Rationalism/AntiRats"
 alias ass="cd $GDIR/Emu86/assembler"
 alias bib="cd $GDIR/biblio_engine"
