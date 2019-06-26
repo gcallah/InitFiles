@@ -1,7 +1,10 @@
 " mapping and abbreviations for C++ editing
 
-" comment:
+" comment next line:
 map \ o//
+
+" comment current line:
+map  o//
 
 " compile:
 map ^ :!g++ -std=c++11 -c %
