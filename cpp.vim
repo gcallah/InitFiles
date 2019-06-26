@@ -6,6 +6,9 @@ map \ o//
 " comment current line:
 map  0i//<Esc>
 
+" uncomment current line:
+map  :s/\/\///
+
 " compile:
 map ^ :!g++ -std=c++11 -c %
 
