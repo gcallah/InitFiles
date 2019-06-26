@@ -4,7 +4,7 @@
 map \ o//
 
 " comment current line:
-map  o//
+map  0i//
 
 " compile:
 map ^ :!g++ -std=c++11 -c %
