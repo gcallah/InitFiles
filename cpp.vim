@@ -4,7 +4,7 @@
 map \ o//
 
 " comment current line:
-map  0i//<Esc>
+map  0i//<Esc>j
 
 " uncomment current line:
 map  :s/\/\///
