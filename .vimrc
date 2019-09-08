@@ -22,6 +22,7 @@ autocmd BufRead,BufNewFile *.ptml set filetype=html
 autocmd BufRead,BufNewFile *.txt set filetype=html
 
 set number
+set relativenumber
 set history=50
 set shiftwidth=4
 set tabstop=4
