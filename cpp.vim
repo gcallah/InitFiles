@@ -13,7 +13,7 @@ map  :s/\/\///
 map ^ :!g++ -std=c++11 -c %
 
 " make:
-map m :!make %:r
+map m :w<CR>:!make %:r
 
 " run:
 map R :!./%:r
