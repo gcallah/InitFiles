@@ -28,4 +28,7 @@ export DJANGO_SETTINGS_MODULE=mysite.settings
 
 export GDIR=$HOME
 
+export EDITOR='vim'
+export VISUAL='vim'
+
 . ./ alias.sh
