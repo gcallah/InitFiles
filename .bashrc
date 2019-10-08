@@ -1,6 +1,3 @@
-# Load up standard site-wide settings.
-source /etc/bashrc
-
 #remove duplicate entries from history
 export HISTCONTROL=ignoreboth
 
@@ -19,16 +16,17 @@ PS1="$LIGHT_GRAY\$(date +%H:%M) \w$YELLOW \$(parse_git_branch)$LIGHT_GREEN\$ $LI
 # Load virtualenvwrapper
 source virtualenvwrapper.sh &> /dev/null
 
-export
-PYTHONPATH=$PYTHONPATH:$HOME/Indra:$DJANGO_SITE:$DJANGO_SITE/berkeley
-
 export PATH=$PATH:$HOME/utils:
 
 export DJANGO_SETTINGS_MODULE=mysite.settings
 
-export GDIR=$HOME
+export GDIR=$HOME/GitProjects
+
+export INDRA_HOME="$GDIR/indras_net"
+export PYTHONPATH=$PYTHONPATH:$INDRA_HOME:$DJANGO_SITE:$DJANGO_SITE/berkeley
+
 
 export EDITOR='vim'
 export VISUAL='vim'
 
-. ./ alias.sh
+. ./alias.sh
