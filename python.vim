@@ -23,4 +23,3 @@ map <F3> oelse:
 map <F4> ofor i in range(0, n):
 map <F5> def __init__(self, ):2hi
 
-

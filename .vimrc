@@ -21,6 +21,11 @@ filetype plugin on
 autocmd BufRead,BufNewFile *.ptml set filetype=html
 autocmd BufRead,BufNewFile *.txt set filetype=html
 
+" comment out blocks of C++:
+command -range=% I :<line1>,<line2>s/^/\/\/
+" put back blocks of C++:
+command -range=% U :<line1>,<line2>s/^\/\///
+
 set number
 set history=50
 set shiftwidth=4
