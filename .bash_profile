@@ -14,9 +14,9 @@ cd $HOME; . alias.sh
 export INDRA_HOME="$GDIR/indras_net"
 export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$INDRA_HOME:$PYTHONPATH"
 
-export PATH="/Users/gcallah/gcc-cross/toolchain/bin":"$PATH"
+export PATH="$HOME/gcc-cross/toolchain/bin":"$PATH"
 
-export PATH="/Users/gcallah/GitProjects/utils":"$PATH"
+export PATH="$HOME/GitProjects/utils":"$PATH"
 
 export PATH="$PATH:/usr/local/mysql/bin"
 
