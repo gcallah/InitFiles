@@ -23,10 +23,12 @@ export DJANGO_SETTINGS_MODULE=mysite.settings
 export GDIR=$HOME/GitProjects
 
 export INDRA_HOME="$GDIR/indras_net"
-export PYTHONPATH=$PYTHONPATH:$INDRA_HOME:$DJANGO_SITE:$DJANGO_SITE/berkeley
+export PYTHONPATH=$PYTHONPATH:$INDRA_HOME:$DJANGO_SITE/berkeley
 
 
 export EDITOR='vim'
 export VISUAL='vim'
 
 . ./alias.sh
+export FLASK_APP=flaskr
+export FLASK_ENV=development
