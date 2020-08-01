@@ -1,7 +1,7 @@
 # aliases for CL use:
 alias 2p="cd $GDIR/ToPOrNotToP"
 alias agl="cd $GDIR/AgileCourseware"
-alias api="cd $GDIR/indras_net/APIServer"
+alias api="cd $GDIR/APIMixMaster"
 alias arat="cd $GDIR/Rationalism/AntiRats"
 alias arat2="cd $GDIR/Rationalism/AntiRats2"
 alias bib="cd $GDIR/biblio_engine"
