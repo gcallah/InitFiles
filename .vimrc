@@ -19,12 +19,13 @@ filetype plugin indent on    " required
 filetype plugin on
 
 autocmd BufRead,BufNewFile *.ptml set filetype=html
+autocmd BufRead,BufNewFile *.md set filetype=html
 autocmd BufRead,BufNewFile *.txt set filetype=html
 
-" comment out blocks of C++:
-command -range=% I :<line1>,<line2>s/^/\/\/
-" put back blocks of C++:
-command -range=% U :<line1>,<line2>s/^\/\///
+" comment out blocks of Python:
+command -range=% I :<line1>,<line2>s/\([A-Za-z]\)/# \1/
+" put back blocks of Python:
+command -range=% U :<line1>,<line2>s/# //
 
 set number
 set history=50
