@@ -28,3 +28,4 @@ export PATH="/usr/local/Cellar/vim/8.1.0550/bin:$PATH"
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 export PATH
 
+export PANDOC_DIR="/usr/local/bin/pandoc"
