@@ -14,8 +14,6 @@ alias pro=". ~/.bashrc"
 
 source alias.sh
 
-export PYTHONPATH="$GDIR/indras_net:$PYTHONPATH"
-
 export PATH="/Users/gcallah/gcc-cross/toolchain/bin":"$PATH"
 
 export PATH="/Users/gcallah/GitProjects/utils":"$PATH"
@@ -31,7 +29,6 @@ export PATH=/usr/local/bin:$PATH
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 export PATH
 
-# let's update our main repos:
-cd $HOME
-$HOME/repo_update.sh
-cd $HOME
+# for Indra:
+export PYTHONPATH="$GDIR/indras_net:$PYTHONPATH"
+export INDRA_HOME="~/$GDIR/indras_net/"
