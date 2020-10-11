@@ -22,7 +22,7 @@ export DJANGO_SETTINGS_MODULE=mysite.settings
 
 export GDIR=$HOME/GitProjects
 
-export INDRA_HOME="$GDIR/indras_net"
+export INDRA_HOME="$GDIR/IndraABM"
 export PYTHONPATH=$PYTHONPATH:$INDRA_HOME:$GDIR/APIMixMaster:
 
 
