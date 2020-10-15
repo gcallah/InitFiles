@@ -1,4 +1,5 @@
 # aliases for CL use:
+export INDRA_HOME=IndraABM
 alias 2p="cd $GDIR/ToPOrNotToP"
 alias agl="cd $GDIR/AgileCourseware"
 alias api="cd $GDIR/APIMixMaster"
@@ -41,6 +42,7 @@ alias pip="pip3"
 alias prop="cd $GDIR/PropArgs"
 alias python="python3"
 alias rat="cd $GDIR/Rationalism"
+alias rat="cd $GDIR/$INDRA_HOME/registry"
 alias sched="cd $GDIR/Scheduler"
 alias soc="cd $GDIR/socnet"
 alias tdev="cd $GDIR/OnlineDevops"
