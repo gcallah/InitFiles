@@ -11,7 +11,7 @@ alias pro=". ~/.bash_profile"
 # source alias.sh
 cd $HOME; . alias.sh
 
-export INDRA_HOME="$GDIR/indras_net"
+export INDRA_HOME="$GDIR/$INDRA_HOME"
 export
 PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$INDRA_HOME:$GDIR/APIMixMaster:$PYTHONPATH"
 
