@@ -11,7 +11,7 @@ alias pro=". ~/.bash_profile"
 # source alias.sh
 cd $HOME; . alias.sh
 
-export INDRA_HOME="$GDIR/indras_net"
+export INDRA_HOME="$GDIR/IndraABM"
 export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$INDRA_HOME:$GDIR/APIMixMaster:$PYTHONPATH"
 
 export PATH="$HOME/gcc-cross/toolchain/bin":"$PATH"
@@ -28,3 +28,8 @@ PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
 export PATH
 
 export PANDOC_DIR="/usr/local/bin/pandoc"
+
+# Setting PATH for Python 3.9
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
+export PATH
