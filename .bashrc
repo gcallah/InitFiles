@@ -22,14 +22,14 @@ export DJANGO_SETTINGS_MODULE=mysite.settings
 
 export GDIR=$HOME/GitProjects
 
-export INDRA_HOME="$GDIR/IndraABM"
+export INDRA_HOME=$GDIR/IndraABM
 export PYTHONPATH=$PYTHONPATH:$INDRA_HOME:$GDIR/APIMixMaster:
-
 
 export EDITOR='vim'
 export VISUAL='vim'
 
 . ./alias.sh
+
 export FLASK_APP=flaskr
 export FLASK_ENV=development
 
