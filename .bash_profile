@@ -12,7 +12,8 @@ alias pro=". ~/.bash_profile"
 cd $HOME; . alias.sh
 
 export INDRA_HOME="$GDIR/IndraABM"
-export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$INDRA_HOME:$GDIR/APIMixMaster:$PYTHONPATH"
+export PYTHONPATH="$INDRA_HOME:$GDIR/APIMixMaster:$GDIR/SeniorDesignTemplate:$PYTHONPATH"
+export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$PYTHONPATH"
 
 export PATH="$HOME/gcc-cross/toolchain/bin":"$PATH"
 
@@ -22,14 +23,6 @@ export PATH="$PATH:/usr/local/mysql/bin"
 
 export PATH="/usr/local/Cellar/vim/8.1.0550/bin:$PATH"
 
-# Setting PATH for Python 3.6
-# The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
-export PATH
+export PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH"
 
 export PANDOC_DIR="/usr/local/bin/pandoc"
-
-# Setting PATH for Python 3.9
-# The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
-export PATH
