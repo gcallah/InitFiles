@@ -13,7 +13,7 @@ cd $HOME; . alias.sh
 
 export INDRA_HOME="$GDIR/IndraABM"
 export PYTHONPATH="$INDRA_HOME:$GDIR/APIMixMaster:$GDIR/SeniorDesignTemplate:$PYTHONPATH"
-export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$PYTHONPATH"
+export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$GDIR/text_menu:$PYTHONPATH"
 
 export PATH="$HOME/gcc-cross/toolchain/bin":"$PATH"
 
