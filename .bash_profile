@@ -11,10 +11,11 @@ alias pro=". ~/.bash_profile"
 # source alias.sh
 cd $HOME; . alias.sh
 
+export GAME_HOME="$GDIR/GameAPI"
 export INDRA_HOME="$GDIR/IndraABM"
 export PYTHONPATH="$INDRA_HOME:$GDIR/APIMixMaster:$GDIR/SeniorDesignTemplate:$PYTHONPATH"
 export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$GDIR/text_menu:$PYTHONPATH"
-export PYTHONPATH="$GDIR/GameAPI:$PYTHONPATH"
+export PYTHONPATH="$GAME_HOME:$PYTHONPATH"
 
 export PATH="$HOME/gcc-cross/toolchain/bin":"$PATH"
 
