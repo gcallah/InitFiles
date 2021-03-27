@@ -1,6 +1,6 @@
 #!/bin/bash
 # aliases for CL use:
-export INDRA_HOME="TandonDevOps/IndraABM"
+export INDRA_HOME="$HOME/TandonDevOps/IndraABM"
 alias 2p="cd $GDIR/ToPOrNotToP"
 alias agl="cd $GDIR/AgileCourseware"
 alias api="cd $GDIR/APIMixMaster"
