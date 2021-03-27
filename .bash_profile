@@ -12,7 +12,7 @@ alias pro=". ~/.bash_profile"
 cd $HOME; . alias.sh
 
 export GAME_HOME="$GDIR/GameAPI"
-export INDRA_HOME="$GDIR/IndraABM"
+export INDRA_HOME="$HOME/TandonDevOps/IndraABM"
 export PYTHONPATH="$INDRA_HOME:$GDIR/APIMixMaster:$GDIR/SeniorDesignTemplate:$PYTHONPATH"
 export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$GDIR/text_menu:$PYTHONPATH"
 export PYTHONPATH="$GAME_HOME:$PYTHONPATH"
