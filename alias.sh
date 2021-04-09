@@ -1,8 +1,17 @@
 #!/bin/bash
-# aliases for CL use:
+
+# get a few dirs named:
 export TDEVOPS_DIR="$HOME/TandonDevOps"
 export INDRA_HOME="$TDEVOPS_DIR/IndraABM"
 export CLASS_DIR="$HOME/Classes"
+
+# this takes a param so we need a func:
+tadd() {
+    touch $1
+    git add $1
+}
+
+# aliases for CL use:
 alias 2p="cd $GDIR/ToPOrNotToP"
 alias agl="cd $GDIR/AgileCourseware"
 alias api="cd $GDIR/APIMixMaster"
