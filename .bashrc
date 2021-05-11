@@ -21,9 +21,10 @@ export PATH=$PATH:$HOME/utils:
 export DJANGO_SETTINGS_MODULE=mysite.settings
 
 export GDIR=$HOME/GitProjects
+export TDIR=$HOME/TandonDevOps
 
-export INDRA_HOME=$GDIR/IndraABM
-export PYTHONPATH=$PYTHONPATH:$INDRA_HOME:$GDIR/APIMixMaster:
+export INDRA_HOME=$TDIR/IndraABM
+export PYTHONPATH=$PYTHONPATH:$INDRA_HOME:
 
 export EDITOR='vim'
 export VISUAL='vim'
