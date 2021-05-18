@@ -24,7 +24,8 @@ export GDIR=$HOME/GitProjects
 export TDIR=$HOME/TandonDevOps
 
 export INDRA_HOME=$TDIR/IndraABM
-export PYTHONPATH=$PYTHONPATH:$INDRA_HOME:
+export UTILS_HOME=$GDIR/utils
+export PYTHONPATH=$PYTHONPATH:$INDRA_HOME:$UTILS_HOME
 
 export EDITOR='vim'
 export VISUAL='vim'
