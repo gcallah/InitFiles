@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# get a few dirs named:
-export TDEVOPS_DIR="$HOME/TandonDevOps"
-export INDRA_HOME="$TDEVOPS_DIR/IndraABM"
-export CLASS_DIR="$HOME/Classes"
-export BUS_DIR="$HOME/Business"
-
 # this takes a param so we need a func:
 tadd() {
     touch $1

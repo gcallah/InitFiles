@@ -11,11 +11,15 @@ alias pro=". ~/.bash_profile"
 # source alias.sh
 cd $HOME; . alias.sh
 
-export GAME_HOME="$GDIR/GameAPI"
 export TDEVOPS_DIR="$HOME/TandonDevOps"
 export INDRA_HOME="$TDEVOPS_DIR/IndraABM"
-export PYTHONPATH="$INDRA_HOME:$GDIR/APIMixMaster:$GDIR/SeniorDesignTemplate:$PYTHONPATH"
-export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$TDEVOPS_DIR/textapp:$PYTHONPATH"
+export CLASS_DIR="$HOME/Classes"
+export BUS_DIR="$HOME/Business"
+export GAME_HOME="$GDIR/GameAPI"
+
+export PYTHONPATH="$INDRA_HOME:$BUS_DIR/APIMixMaster:$GDIR/SeniorDesignTemplate:$PYTHONPATH"
+export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$PYTHONPATH"
+# export PYTHONPATH=":$TDEVOPS_DIR/textapp:$PYTHONPATH"
 export PYTHONPATH="$GAME_HOME:$PYTHONPATH"
 
 export PATH="$HOME/gcc-cross/toolchain/bin":"$PATH"
@@ -23,8 +27,6 @@ export PATH="$HOME/gcc-cross/toolchain/bin":"$PATH"
 export PATH="$HOME/GitProjects/utils":"$PATH"
 
 export PATH="$PATH:/usr/local/mysql/bin"
-
-export PATH="/usr/local/Cellar/vim/8.1.0550/bin:$PATH"
 
 export PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH"
 
