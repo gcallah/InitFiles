@@ -24,7 +24,7 @@ export GDIR=$HOME/GitProjects
 export BUS_DIR=$HOME/Business
 export TDIR=$HOME/TandonDevOps
 
-export INDRA_HOME=$TDIR/InendraABM
+export INDRA_HOME=$TDIR/IndraABM
 export UTILS_HOME=$GDIR/utils
 export PYTHONPATH=$PYTHONPATH:$INDRA_HOME:$UTILS_HOME
 
