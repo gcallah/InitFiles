@@ -3,7 +3,7 @@
 # how to get my vim setup on a new machine
 # hopefully idempotent!
 
-export VIM_DIR=~/.vim
+export VIM_DIR=$HOME/.vim
 # make vim dir if it ain't there:
 mkdir $VIM_DIR || true
 
