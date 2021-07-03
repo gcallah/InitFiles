@@ -6,13 +6,15 @@ tadd() {
     git add $1
 }
 
+export WRITING_DIR=$HOME/Writing
+
 # aliases for CL use:
 alias 2p="cd $GDIR/ToPOrNotToP"
 alias agl="cd $GDIR/AgileCourseware"
 alias api="cd $INDRA_HOME/APIServer"
 alias arat="cd $GDIR/Rationalism/AntiRats"
 alias arat2="cd $GDIR/Rationalism/AntiRats2"
-alias book="cd $GDIR/BookReviews"
+alias book="cd $WRITING_DIR/BookReviews"
 alias cap="cd $INDRA_HOME/capital; git checkout staging"
 alias cor="cd $GDIR/SunsCorona"
 alias cs="cd $CLASS_DIR/IntroToCS"
