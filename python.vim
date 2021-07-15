@@ -7,6 +7,9 @@ noremap R :w<ENTER>:!python %
 " grep
 map g :!grep 
 
+" lint:
+map L :!flake8 %
+
 " run:
 map R :!python3 %
 
