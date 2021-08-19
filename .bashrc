@@ -24,9 +24,10 @@ export GDIR=$HOME/GitProjects
 export BUS_DIR=$HOME/Business
 export TDIR=$HOME/TandonDevOps
 
+export KOUKOU_HOME=$BUS_DIR/APIMixMaster
 export INDRA_HOME=$TDIR/IndraABM
 export UTILS_HOME=$GDIR/utils
-export PYTHONPATH=$PYTHONPATH:$INDRA_HOME:$UTILS_HOME
+export PYTHONPATH=$PYTHONPATH:$INDRA_HOME:$UTILS_HOME:$KOUKOU_HOME
 
 export EDITOR='vim'
 export VISUAL='vim'
