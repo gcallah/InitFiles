@@ -30,7 +30,11 @@ then
 	cd $VIM_DIR; git clone https://github.com/vim-scripts/indentpython.vim.git indent
 fi
 
-mkdir $VIM_DIR/colors || true  # in case dir is there
+echo "Getting colors."
+if [ ! -d $VIM_DIR/colors ]
+then
+    mkdir $VIM_DIR/colors
+fi
 
 echo "Going to copy $INIT_DIR/zenburn.vim"
 cp $INIT_DIR/zenburn.vim $VIM_DIR/colors
