@@ -7,6 +7,7 @@ tadd() {
 }
 
 export WRITING_DIR=$HOME/Writing
+export CLASS_DIR=$HOME/Classes
 
 # aliases for CL use:
 alias 2p="cd $GDIR/ToPOrNotToP"
