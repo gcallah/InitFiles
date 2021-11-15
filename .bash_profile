@@ -41,3 +41,5 @@ PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
 export PATH
 
 export PY_EXEC=python3
+
+export FRED_API_KEY=26892ccbc0c367e7cbd799c6181ee8d6
