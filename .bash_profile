@@ -42,4 +42,4 @@ export PATH
 
 export PY_EXEC=python3
 
-export FRED_API_KEY=26892ccbc0c367e7cbd799c6181ee8d6
+export FAK=26892ccbc0c367e7cbd799c6181ee8d6
