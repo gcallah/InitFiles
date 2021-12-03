@@ -44,3 +44,7 @@ export PY_EXEC=python3
 
 export FAK=26892ccbc0c367e7cbd799c6181ee8d6
 export WHICH_DASH='africa'
+
+# always start Mongo DB
+brew services start mongodb-community@5.0
+
