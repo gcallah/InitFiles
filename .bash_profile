@@ -47,4 +47,6 @@ export WHICH_DASH='africa'
 
 # always start Mongo DB
 brew services start mongodb-community@5.0
-
+# set limits properly for mongo
+ulimit -n 65536
+ulimit -u 2048
