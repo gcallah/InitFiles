@@ -1,5 +1,8 @@
 ulimit -c unlimited
 
+# recommended for making iterm work properly
+[[ -s ~/.bashrc ]] && source ~/.bashrc
+
 set editing-mode vi
 
 alias pro=". ~/.bash_profile"
