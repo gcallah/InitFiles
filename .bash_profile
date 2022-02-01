@@ -5,11 +5,6 @@ ulimit -c unlimited
 
 set editing-mode vi
 
-alias pro=". ~/.bash_profile"
-
-# source alias.sh
-cd $HOME; . alias.sh
-
 export TDEVOPS_DIR="$HOME/TandonDevOps"
 export INDRA_HOME="$TDEVOPS_DIR/IndraABM"
 
@@ -51,3 +46,9 @@ export WHICH_DASH='africa'
 # always start Mongo DB
 brew services start mongodb-community@5.0
 export LOCAL_MONGO=1
+
+# set up aliases:
+alias pro=". ~/.bash_profile"
+
+# source alias.sh
+cd $HOME; . alias.sh
