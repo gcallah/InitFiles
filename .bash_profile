@@ -45,7 +45,6 @@ export WHICH_DASH='africa'
 
 # always start Mongo DB
 brew services start mongodb-community@5.0
-export LOCAL_MONGO=1
 
 # set up aliases:
 alias pro=". ~/.bash_profile"
