@@ -13,6 +13,9 @@ map L :!flake8 %
 " run:
 map R :!python3 %
 
+" test:
+map T :!make %
+
 map # o"""<CR>"""<Esc>O
 map  idef ():ki
 map  :!pydoc 
