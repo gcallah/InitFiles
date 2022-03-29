@@ -4,9 +4,6 @@ let python_highlight_all=1
 
 noremap R :w<ENTER>:!python %
 
-" grep
-map g :!grep 
-
 " lint:
 map L :!flake8 %
 
