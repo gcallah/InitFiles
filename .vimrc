@@ -1,5 +1,8 @@
 set nocompatible
 set noerrorbells visualbell t_vb=
+# set these early so Plugins can override
+set tabstop=4
+set softtabstop=4
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -13,6 +16,8 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'rykka/riv.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -21,6 +26,7 @@ filetype plugin on
 autocmd BufRead,BufNewFile *.ptml set filetype=html
 autocmd BufRead,BufNewFile *.md set filetype=html
 autocmd BufRead,BufNewFile *.txt set filetype=html
+autocmd BufRead,BufNewFile *.jsx set filetype=js
 
 " comment out blocks of Python:
 command -range=% I :<line1>,<line2>s/\([A-Za-z]\)/# \1/
@@ -30,8 +36,6 @@ command -range=% U :<line1>,<line2>s/# //
 set number
 set history=50
 set shiftwidth=4
-set tabstop=4
-set softtabstop=4
 set textwidth=79
 set expandtab
 set autoindent
