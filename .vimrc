@@ -1,6 +1,6 @@
 set nocompatible
 set noerrorbells visualbell t_vb=
-# set these early so Plugins can override
+" set these early so Plugins can override
 set tabstop=4
 set softtabstop=4
 " set the runtime path to include Vundle and initialize
