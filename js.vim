@@ -1,8 +1,6 @@
-" mappings for python editing
+" mappings for javascript editing
 
-let python_highlight_all=1
-
-set tabstop=4
+set tabstop=2
 
 noremap R :w<ENTER>:!python %
 

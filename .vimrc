@@ -26,7 +26,7 @@ filetype plugin on
 autocmd BufRead,BufNewFile *.ptml set filetype=html
 autocmd BufRead,BufNewFile *.md set filetype=html
 autocmd BufRead,BufNewFile *.txt set filetype=html
-autocmd BufRead,BufNewFile *.jsx set filetype=js
+autocmd BufRead,BufNewFile *.jsx set filetype=javascript
 
 " comment out blocks of Python:
 command -range=% I :<line1>,<line2>s/\([A-Za-z]\)/# \1/
