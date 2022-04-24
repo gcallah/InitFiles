@@ -68,8 +68,6 @@ endfunction
 nmap <silent>  ;s  :call ToggleSyntax()<CR>
 " run grep
 map  :!grep 
-" show all buffer
-map B :buffers
 " huh?
 map v 0ma}b:'a,.j<CR>070 ?  *<Esc>dwi<CR><Esc>
 " git add current file
