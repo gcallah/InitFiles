@@ -68,9 +68,7 @@ endfunction
 nmap <silent>  ;s  :call ToggleSyntax()<CR>
 " run grep
 map  :!grep 
-" huh?
-map v 0ma}b:'a,.j<CR>070 ?  *<Esc>dwi<CR><Esc>
 " git add current file
 map + :!git add %
 " toggle line numbers on / off
-map t :set invnumber
+map <F6> :set invnumber
