@@ -11,7 +11,7 @@ map L :!flake8 %
 map R :!python3 %
 
 " test:
-map T :!make %
+map T :make %
 
 map # o"""<CR>"""<Esc>O
 map  idef ():ki
