@@ -8,11 +8,12 @@ tadd() {
 
 export WRITING_DIR=$HOME/Writing
 export CLASS_DIR=$HOME/Classes
+export MIX_DIR=$BUS_DIR/APIMixMaster
 
 # aliases for CL use:
 alias 2p="cd $GDIR/ToPOrNotToP"
 alias agl="cd $GDIR/AgileCourseware"
-alias api="cd $INDRA_HOME/APIServer"
+alias api="cd $MIX_DIR/api_server"
 alias arat="cd $WRITING_DIR/Rationalism/AntiRats"
 alias arat2="cd $WRITING_DIR/Rationalism/AntiRats2"
 alias book="cd $WRITING_DIR/BookReviews"
@@ -22,6 +23,7 @@ alias cs="cd $CLASS_DIR/IntroToCS"
 alias demo="cd $CLASS_DIR/demo-repo2"
 alias dev="cd $GDIR/DevOps"
 alias dos="cd $GDIR/DevOpsSample"
+alias dsrc="cd $MIX_DIR/datasource"
 alias emu="cd $GDIR/Emu86"
 alias epi="cd $INDRA_HOME/epidemics"
 alias doc="cd $INDRA_HOME/indras_net/docs"
@@ -40,7 +42,7 @@ alias kic="cd $GDIR/KickingTheStone"
 alias lin="cd $GDIR/OOP2/code/linked"
 alias mdl="cd $INDRA_HOME/models; git checkout staging"
 alias mis="cd $GDIR/OOP2/code/misc"
-alias mix="cd $BUS_DIR/APIMixMaster; git checkout staging"
+alias mix="cd $MIX_DIR; git checkout staging"
 alias mixf="cd $BUS_DIR/APIFrontEnd; git checkout staging"
 alias oop="cd $CLASS_DIR/OOP"
 alias oop2="cd $CLASS_DIR/OOP2"
@@ -51,6 +53,7 @@ alias prop="cd $GDIR/PropArgs"
 alias python="python3"
 alias rat="cd $WRITING_DIR/Rationalism"
 alias reg="cd $INDRA_HOME/registry; git checkout staging"
+alias dsrc="cd $MIX_DIR/report"
 alias sd="cd $GDIR/SeniorDesignTemplate"
 alias se="cd $CLASS_DIR/SoftwareEngineering"
 alias seng="cd $GDIR/SETemplate"
