@@ -3,6 +3,10 @@ set noerrorbells visualbell t_vb=
 " set these early so Plugins can override
 set tabstop=4
 set softtabstop=4
+" maintain undo history:
+set undofile
+set undodir=~/.vim/undodir
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
