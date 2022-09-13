@@ -62,7 +62,7 @@ alias seng="cd $GDIR/SETemplate"
 alias soc="cd $GDIR/socnet"
 alias tdev="cd $CLASS_DIR/OnlineDevops"
 alias tech="cd $GDIR/TechManagement"
-alias txt="cd $CLASSDIR/TextGame"
+alias txt="cd $CLASS_DIR/TextGame"
 alias utl="cd $GDIR/utils"
 alias work="cd $WRITING_DIR/work"
 
