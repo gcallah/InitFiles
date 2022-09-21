@@ -13,6 +13,7 @@ export MIX_DIR=$BUS_DIR/APIMixMaster
 # aliases for CL use:
 alias 2p="cd $GDIR/ToPOrNotToP"
 alias agl="cd $GDIR/AgileCourseware"
+alias algo="cd $CLASSES/Algocynfas"
 alias api="cd $MIX_DIR/api_server"
 alias aql="cd $MIX_DIR/aql"
 alias arat="cd $WRITING_DIR/Rationalism/AntiRats"
