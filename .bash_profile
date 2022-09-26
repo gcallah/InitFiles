@@ -21,6 +21,7 @@ export DEMO_HOME=/Users/gcallah/Classes/demo-repo3
 export PYTHONPATH="$INDRA_HOME:$BUS_DIR/APIMixMaster:$PYTHONPATH"
 export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$PYTHONPATH"
 export PYTHONPATH="$DEMO_HOME:$PYTHONPATH"
+export PYTHONPATH="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages:$PYTHONPATH"
 # export PYTHONPATH=":$TDEVOPS_DIR/textapp:$PYTHONPATH"
 # export PYTHONPATH="$GAME_HOME:$PYTHONPATH"
 
