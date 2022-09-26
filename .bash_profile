@@ -14,16 +14,16 @@ export BUS_DIR="$HOME/Business"
 export KOUKOU_HOME="$BUS_DIR/APIMixMaster"
 
 export GDIR="$HOME/GitProjects"
-export GAME_HOME="$GDIR/GameAPI"
 
-export DEMO_HOME=/Users/gcallah/Classes/demo-repo3
 
 export PYTHONPATH="$INDRA_HOME:$BUS_DIR/APIMixMaster:$PYTHONPATH"
 export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$PYTHONPATH"
+
+export DEMO_HOME=$CLASS_DIR/demo-repo3
+export TEXT_HOME=$CLASS_DIR/TextGame
+
 export PYTHONPATH="$DEMO_HOME:$PYTHONPATH"
-export PYTHONPATH="/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages:$PYTHONPATH"
-# export PYTHONPATH=":$TDEVOPS_DIR/textapp:$PYTHONPATH"
-# export PYTHONPATH="$GAME_HOME:$PYTHONPATH"
+export PYTHONPATH="$TEXT_HOME:$PYTHONPATH"
 
 export PATH="$HOME/gcc-cross/toolchain/bin":"$PATH"
 
