@@ -54,6 +54,10 @@ export LOCAL_MONGO=1
 # for adding KouKou data sources:
 export DS_ADDER_KEY="Come on, Beanie!"
 
+SMTP_SERV_HOST="smtp.office365.com"
+PW_RESET_SENDER="support@koukoudata.com"
+PW_RESET_SENDER_PW="Cqf6CxwhiNrH4tEc4XQr"
+
 # set up aliases:
 alias pro=". ~/.bash_profile"
 
