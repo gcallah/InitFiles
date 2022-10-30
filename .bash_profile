@@ -51,15 +51,12 @@ brew services start mongodb-community@5.0
 # default to accessing a local copy:
 export LOCAL_MONGO=1
 
-# for adding KouKou data sources:
 export DS_ADDER_KEY="Come on, Beanie!"
 
-SMTP_SERV_HOST="smtp.office365.com"
-PW_RESET_SENDER="support@koukoudata.com"
-PW_RESET_SENDER_PW="Cqf6CxwhiNrH4tEc4XQr"
+export SMTP_SERV_HOST="smtp.office365.com"
+export PW_RESET_SENDER="support@koukoudata.com"
+export PW_RESET_SENDER_PW="Cqf6CxwhiNrH4tEc4XQr"
 
 # set up aliases:
 alias pro=". ~/.bash_profile"
-
-# source alias.sh
 cd $HOME; . alias.sh
