@@ -57,6 +57,8 @@ export SMTP_SERV_HOST="smtp.office365.com"
 export PW_RESET_SENDER="support@koukoudata.com"
 export PW_RESET_SENDER_PW="Cqf6CxwhiNrH4tEc4XQr"
 
+export DEVOPS_PASSWD="releaseit!"
+
 # set up aliases:
 alias pro=". ~/.bash_profile"
 cd $HOME; . alias.sh
