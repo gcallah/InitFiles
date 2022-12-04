@@ -2,8 +2,6 @@
 
 let python_highlight_all=1
 
-noremap R :w<ENTER>:!python %
-
 " lint:
 map L :!flake8 %
 
@@ -19,7 +17,7 @@ map  :!pydoc
 map  oimport
 " insert an empty line
 map  o
-map  oprint("")hi
+map  ywoprint(f'{pi=}')
 map <F1> oif :hi
 map <F2> oelif :hi
 map <F3> oelse:
