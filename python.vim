@@ -17,7 +17,7 @@ map  :!pydoc
 map  oimport
 " insert an empty line
 map  o
-map  ywoprint(f'{pi=}')
+map  ywoprint(f'{pa=}')
 map <F1> oif :hi
 map <F2> oelif :hi
 map <F3> oelse:
