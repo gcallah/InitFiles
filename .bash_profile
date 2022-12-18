@@ -53,9 +53,7 @@ export LOCAL_MONGO=1
 
 export DS_ADDER_KEY="Come on, Beanie!"
 
-export SMTP_SERV_HOST="smtp.office365.com"
-export PW_RESET_SENDER="support@koukoudata.com"
-export PW_RESET_SENDER_PW="Cqf6CxwhiNrH4tEc4XQr"
+export SMTP_API="40cddc1415e0b82166874bcab98a8c99-48d7d97c-9b7f03e5"
 
 # set up aliases:
 alias pro=". ~/.bash_profile"
