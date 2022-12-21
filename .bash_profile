@@ -16,7 +16,7 @@ export KOUKOU_HOME="$BUS_DIR/APIMixMaster"
 export GDIR="$HOME/GitProjects"
 
 
-export PYTHONPATH="$INDRA_HOME:$BUS_DIR/APIMixMaster:$PYTHONPATH"
+export PYTHONPATH="$INDRA_HOME:$BUS_DIR/APIMixMaster"
 export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$PYTHONPATH"
 
 export DEMO_HOME=$CLASS_DIR/demo-repo3
@@ -55,4 +55,8 @@ export DS_ADDER_KEY="Come on, Beanie!"
 
 # set up aliases:
 alias pro=". ~/.bash_profile"
-cd $HOME; . alias.sh
+cd $HOME; . ./alias.sh
+
+# things we don't want to put in repo:
+cd $HOME; . ./private.sh
+
