@@ -19,6 +19,8 @@ export GDIR="$HOME/GitProjects"
 export PYTHONPATH="$INDRA_HOME:$BUS_DIR/APIMixMaster"
 export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$PYTHONPATH"
 
+export INI_HOME=$GDIR/InitFiles
+
 export DEMO_HOME=$CLASS_DIR/demo-repo3
 export TEXT_HOME=$CLASS_DIR/TextGame
 
