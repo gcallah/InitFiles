@@ -7,6 +7,7 @@ tadd() {
 }
 
 export WRITING_DIR=$HOME/Writing
+export STUDENT_DIR=$HOME/StudentProjects
 export CLASS_DIR=$HOME/Classes
 export MIX_DIR=$BUS_DIR/APIMixMaster
 
@@ -53,6 +54,7 @@ alias rpt="cd $MIX_DIR/report"
 alias sd="cd $GDIR/SeniorDesignTemplate"
 alias se="cd $CLASS_DIR/SoftwareEngineering"
 alias seng="cd $GDIR/SETemplate"
+alias stu="cd $STUDENT_DIR"
 alias tdev="cd $CLASS_DIR/OnlineDevops"
 alias tech="cd $GDIR/TechManagement"
 alias txt="cd $CLASS_DIR/TextGame"
