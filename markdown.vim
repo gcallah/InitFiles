@@ -1,3 +1,3 @@
-# mappings for markdown files
+" mappings for markdown files
 
 set textwidth=120
