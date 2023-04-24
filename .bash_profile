@@ -37,11 +37,6 @@ export PATH="/Users/gcallah/Library/Python/3.9/bin:$PATH"
 
 export PANDOC_DIR="/usr/local/bin/pandoc"
 
-# Setting PATH for Python 3.9
-# The original version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
-export PATH
-
 export PY_EXEC=python3
 
 export FAK=26892ccbc0c367e7cbd799c6181ee8d6

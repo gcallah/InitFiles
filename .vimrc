@@ -22,6 +22,8 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'godlygeek/tabular'
+Plugin 'preservim/vim-markdown'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
