@@ -49,7 +49,7 @@ set fileformat=unix
 set showcmd
 set backup
 set noshowmatch
-set hlsearch
+set nohlsearch
 set scrolloff=8
 set pastetoggle=<f5>
 set encoding=utf-8
