@@ -33,7 +33,6 @@ filetype plugin on
 
 autocmd BufRead,BufNewFile *.ptml set filetype=html
 autocmd BufRead,BufNewFile *.md set filetype=markdown
-autocmd BufRead,BufNewFile *.sh set filetype=shell
 autocmd BufRead,BufNewFile *.jsx set filetype=javascript
 
 " comment out blocks of Python:
