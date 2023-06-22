@@ -62,6 +62,7 @@ alias stu="cd $STUDENT_DIR"
 alias tdev="cd $CLASS_DIR/OnlineDevops"
 alias tech="cd $GDIR/TechManagement"
 alias txt="cd $CLASS_DIR/TextGame"
+alias usr="cd $KOUKOU_HOME/user_data"
 alias utl="cd $GDIR/utils"
 alias work="cd $WRITING_DIR/work"
 
