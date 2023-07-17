@@ -4,6 +4,7 @@ ulimit -c unlimited
 [[ -s ~/.bashrc ]] && source ~/.bashrc
 
 set editing-mode vi
+export EDITOR=vim
 
 export TDEVOPS_DIR="$HOME/TandonDevOps"
 export INDRA_HOME="$TDEVOPS_DIR/IndraABM"
