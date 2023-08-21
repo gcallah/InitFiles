@@ -38,3 +38,6 @@ export FLASK_APP=flaskr
 export FLASK_ENV=development
 
 export PANDOC=/usr/bin/pandoc
+
+# things we don't want to put in repo:
+cd $HOME; . ./private.sh
