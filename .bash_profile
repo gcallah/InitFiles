@@ -22,7 +22,7 @@ export PYTHONPATH="$GDIR/utils:$GDIR/OnlineDevops:$PYTHONPATH"
 
 export INI_HOME=$GDIR/InitFiles
 
-export DEMO_HOME=$CLASS_DIR/demo-repo3
+export DEMO_HOME=$CLASS_DIR/demo-repo4
 export TEXT_HOME=$CLASS_DIR/TextGame
 
 export PYTHONPATH="$DEMO_HOME:$PYTHONPATH"
