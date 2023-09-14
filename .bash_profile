@@ -49,8 +49,6 @@ brew services start mongodb-community@5.0
 # default to accessing a local copy:
 export LOCAL_MONGO=1
 
-export DS_ADDER_KEY="Come on, Beanie!"
-
 # set up aliases:
 alias pro=". ~/.bash_profile"
 cd $HOME; . ./alias.sh
