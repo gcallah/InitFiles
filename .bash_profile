@@ -32,10 +32,6 @@ export PATH="$HOME/gcc-cross/toolchain/bin":"$PATH"
 
 export PATH="$HOME/GitProjects/utils":"$PATH"
 
-export PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:$PATH"
-
-export PATH="/Users/gcallah/Library/Python/3.9/bin:$PATH"
-
 export PANDOC_DIR="/usr/local/bin/pandoc"
 
 export PY_EXEC=python3
@@ -56,3 +52,8 @@ cd $HOME; . ./alias.sh
 # things we don't want to put in repo:
 cd $HOME; . ./private.sh
 
+
+# Setting PATH for Python 3.12
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.12/bin:${PATH}"
+export PATH
