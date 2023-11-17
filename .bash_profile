@@ -37,7 +37,7 @@ export FAK=26892ccbc0c367e7cbd799c6181ee8d6
 # default to accessing a local copy of MongoDB:
 export LOCAL_MONGO=1
 
-# spped up pytest collection step:
+# speed up pytest collection step:
 export PYTHONDONTWRITEBYTECODE=1
 
 # set up aliases:
