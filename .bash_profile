@@ -12,6 +12,7 @@ export INDRA_HOME="$TDEVOPS_DIR/IndraABM"
 export CLASS_DIR="$HOME/Classes"
 
 export BUS_DIR="$HOME/Business"
+export MIX_HOME=$BUS_DIR
 export KOUKOU_HOME="$BUS_DIR/APIMixMaster"
 
 export GDIR="$HOME/GitProjects"
