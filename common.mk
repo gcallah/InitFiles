@@ -5,7 +5,7 @@
 	pandoc -o $@ -f markdown -t docx $*.md
 
 # make a markdown doc from Word:
-%.markdown: %.docx
+%.md: %.docx
 	pandoc -o $@ -f docx -t markdown $*.docx
 
 github:
