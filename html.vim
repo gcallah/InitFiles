@@ -16,8 +16,6 @@ map ! o<p><code><pre></pre></code></p>
 map { a<code>
 " insert code end tag
 map } a</code>
-" insert a list item
-map  o<li></li>kO
 " create hyperlink
 map  o<a href=""></a>3hi
 " create a list
@@ -32,8 +30,6 @@ map  0o<p></p>kO
 map  0o<table><tr><th></th></tr><tr><td></td></tr></table>
 " figure with caption
 map  0o<figure><img src=""><figcaption></figcaption></figure>
-" multiple choice question
-map  i<ol><li></li><li><ol type="a"><li></li><li><li></li><li></li></ol></ol>
 " headings 1-4:
 map <F1> 0o<h1></h1>ki
 map <F2> 0o<h2></h2>ki

@@ -79,3 +79,9 @@ map  :!grep
 map + :!git add %
 " toggle line numbers on / off
 map <F6> :set invnumber
+" replace smart quotes
+map  :1,$s/\%u201c/"/g
+map  :1,$s/\%u201d/"/g
+map  :1,$s/\%u2018/'/g
+map  :1,$s/\%u2019/'/g
+map  :1,$s/\%u2026/.../g
