@@ -10,12 +10,15 @@ export WRITING_DIR=$HOME/Writing
 export STUDENT_DIR=$HOME/StudentProjects
 export CLASS_DIR=$HOME/Classes
 export MIX_DIR=$BUS_DIR/APIMixMaster
+export API_SERVER=$MIX_DIR/api_server
 
 # aliases for CL use:
-alias api="cd $MIX_DIR/api_server"
+alias api="cd $API_SERVER"
+alias apis="cd $API_SERVER/apis"
 alias aql="cd $MIX_DIR/aql"
 alias arat="cd $WRITING_DIR/Rationalism/AntiRats"
 alias arat2="cd $WRITING_DIR/Rationalism/AntiRats2"
+alias atempl="cd $API_SERVER/apis/templates"
 alias auth="cd $WRITING_DIR/AuthorityAndRebellion"
 alias bcor="cd $BUS_DIR/BackEndCore"
 alias bcordat="cd $BUS_DIR/BackEndCore/backendcore/data"
