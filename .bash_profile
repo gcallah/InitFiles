@@ -23,7 +23,6 @@ export DEMO_HOME=$CLASS_DIR/demo-repo4
 export TEXT_HOME=$CLASS_DIR/TextGame
 
 export PYTHONPATH="$DEMO_HOME:$PYTHONPATH"
-export PYTHONPATH="$TEXT_HOME:$PYTHONPATH"
 
 export PATH="$HOME/gcc-cross/toolchain/bin":"$PATH"
 
