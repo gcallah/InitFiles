@@ -11,6 +11,7 @@ export STUDENT_DIR=$HOME/StudentProjects
 export CLASS_DIR=$HOME/Classes
 export MIX_DIR=$BUS_DIR/APIMixMaster
 export API_SERVER=$MIX_DIR/api_server
+export BCORE_DIR=$BUS_DIR/BackEndCore
 
 # aliases for CL use:
 alias api="cd $API_SERVER"
@@ -20,8 +21,9 @@ alias arat="cd $WRITING_DIR/Rationalism/AntiRats"
 alias arat2="cd $WRITING_DIR/Rationalism/AntiRats2"
 alias atempl="cd $API_SERVER/apis/templates"
 alias auth="cd $WRITING_DIR/AuthorityAndRebellion"
-alias bcor="cd $BUS_DIR/BackEndCore; . ./act.sh"
-alias bcordat="cd $BUS_DIR/BackEndCore/backendcore/data"
+alias bcor="cd $BCORE_DIR; . ./act.sh"
+alias bcom="cd $BCORE_DIR/backendcore/common"
+alias bdat="cd $BCORE_DIR/backendcore/data"
 alias book="cd $WRITING_DIR/BookReviews"
 alias cm="unset LOCAL_MONGO"
 alias cor="cd $GDIR/SunsCorona"
