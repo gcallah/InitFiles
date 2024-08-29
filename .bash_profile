@@ -14,6 +14,7 @@ export CLASS_DIR="$HOME/Classes"
 export BUS_DIR="$HOME/Business"
 export MIX_HOME=$BUS_DIR
 export KOUKOU_HOME="$BUS_DIR/APIMixMaster"
+export BACKENDCORE_HOME="$BUS_DIR/BackEndCore"
 
 export GDIR="$HOME/GitProjects"
 
