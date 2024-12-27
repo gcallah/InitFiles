@@ -15,6 +15,7 @@ export BUS_DIR="$HOME/Business"
 export MIX_HOME=$BUS_DIR
 export KOUKOU_HOME="$BUS_DIR/APIMixMaster"
 export BACKENDCORE_HOME="$BUS_DIR/BackEndCore"
+export MFC_HOME="$BUS_DIR/mfc"
 
 export GDIR="$HOME/GitProjects"
 
