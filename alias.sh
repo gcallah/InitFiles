@@ -86,3 +86,5 @@ alias gpushd="git push origin dev"
 alias gpulld="git pull origin dev"
 alias gs="git status"
 
+# jokes:
+alias screw_kris_and_his_bs="ls -las"
