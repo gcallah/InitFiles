@@ -12,20 +12,22 @@ export CLASS_DIR=$HOME/Classes
 export MIX_DIR=$BUS_DIR/APIMixMaster
 export API_SERVER=$MIX_DIR/api_server
 export BCORE_DIR=$BUS_DIR/BackEndCore
+export BCORE_CODE_DIR=$BCOR_DIR/backendcore
 
 # aliases for CL use:
+alias ali="cd $INI_HOME; . ./alias.sh"
 alias api="cd $API_SERVER"
 alias apis="cd $API_SERVER/apis"
 alias aql="cd $MIX_DIR/aql"
 alias atempl="cd $API_SERVER/apis/templates"
 alias auth="cd $WRITING_DIR/AuthorityAndRebellion"
 alias bcor="cd $BCORE_DIR; . ./act.sh"
-alias bcom="cd $BCORE_DIR/backendcore/common"
-alias bdat="cd $BCORE_DIR/backendcore/data"
+alias bcom="cd $BCORE_CODE_DIR/common"
+alias bdat="cd $BCORE_CODE_DIR/data"
 alias bib="cd $MIX_DIR/bibliography"
 alias book="cd $WRITING_DIR/BookReviews"
-alias bsec="cd $BCORE_DIR/backendcore/security"
-alias busr="cd $BCORE_DIR/backendcore/users"
+alias bsec="cd $BCORE_CODE_DIR/security"
+alias busr="cd $BCORE_CODE_DIR/users"
 alias cm="unset LOCAL_MONGO"
 alias ct="cd $BUS_DIR/CosmosAndTaxis; . ./act.sh"
 alias cor="cd $GDIR/SunsCorona"
@@ -83,8 +85,6 @@ alias gpulls="git pull origin staging"
 alias gpushm="git push origin master"
 alias gpushmn="git push origin main"
 alias gpushs="git push origin staging"
-alias gpushd="git push origin dev"
-alias gpulld="git pull origin dev"
 alias gs="git status"
 
 # jokes:
