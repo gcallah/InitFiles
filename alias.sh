@@ -6,15 +6,17 @@ tadd() {
     git add $1
 }
 
-export WRITING_DIR=$HOME/Writing
-export STUDENT_DIR=$HOME/StudentProjects
+export API_SERVER=$MIX_DIR/api_server
+export BCOR_CODE_DIR=$BCOR_DIR/backendcore
+export BCOR_DIR=$BUS_DIR/BackEndCore
 export CLASS_DIR=$HOME/Classes
 export MIX_DIR=$BUS_DIR/APIMixMaster
-export API_SERVER=$MIX_DIR/api_server
-export BCOR_DIR=$BUS_DIR/BackEndCore
-export BCOR_CODE_DIR=$BCOR_DIR/backendcore
+export STUDENT_DIR=$HOME/StudentProjects
+export WRITING_DIR=$HOME/Writing
+export AI_DIR=$WRITING_DIR/MiscWriting/AI
 
 # aliases for CL use:
+alias ais="cd $AI_DIR/AIAndSemiotics"
 alias ali="cd $INI_HOME; . ./alias.sh"
 alias api="cd $API_SERVER"
 alias apis="cd $API_SERVER/apis"
