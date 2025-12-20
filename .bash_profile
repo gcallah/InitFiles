@@ -49,6 +49,7 @@ cd $HOME; . ./alias.sh
 # things we don't want to put in repo:
 cd $HOME; . ./private.sh
 
-# Setting PATH for Python 3.11
-PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:${PATH}"
+# Setting PATH for Python 3.14
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.14/bin:${PATH}"
 export PATH
