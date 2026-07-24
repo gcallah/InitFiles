@@ -73,7 +73,7 @@ alias templ="cd $MIX_DIR/templates"
 alias tug="cd $BUS_DIR/tugboat; . ./act.sh"
 alias usr="cd $MIX_DIR/user_data"
 alias utl="cd $GDIR/utils"
-alias voe="cd $WRITING_DIR/Rationalism/VoegelinOakeshott"
+alias voe="cd $WRITING_DIR/VoegelinOakeshott"
 
 # git aliases:
 alias ga="git add"
