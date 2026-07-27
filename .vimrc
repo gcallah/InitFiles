@@ -45,6 +45,9 @@ let g:lsp_diagnostics_float_cursor = 0
 let g:lsp_diagnostics_virtual_text_enabled = 0
 let g:lsp_diagnostics_highlights_enabled = 0
 
+" Copilot settings:
+let g:copilot_node_command = '/Users/gcallah/.nvm/versions/node/v26.1.0/bin/node'
+
 autocmd BufRead,BufNewFile *.ptml set filetype=html
 autocmd BufRead,BufNewFile *.md set filetype=markdown
 autocmd BufRead,BufNewFile *.jsx set filetype=javascript
