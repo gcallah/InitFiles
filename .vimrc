@@ -47,6 +47,11 @@ let g:lsp_diagnostics_highlights_enabled = 0
 
 " Copilot settings:
 let g:copilot_node_command = '/Users/gcallah/.nvm/versions/node/v26.1.0/bin/node'
+" Disable the default Tab mapping if it conflicts
+let g:copilot_no_maps = 1
+" Map Ctrl+A to accept the Copilot suggestion
+imap <silent><script><expr> <C-A> copilot#Accept("\<CR>")
+
 
 autocmd BufRead,BufNewFile *.ptml set filetype=html
 autocmd BufRead,BufNewFile *.md set filetype=markdown
