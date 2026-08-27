@@ -76,6 +76,7 @@ alias tug="cd $BUS_DIR/tugboat; . ./act.sh"
 alias usr="cd $MIX_DIR/user_data"
 alias utl="cd $GDIR/utils"
 alias voe="cd $WRITING_DIR/VoegelinOakeshott"
+alias wb="cd $STUDENT_DIR/WritersWorkbench; . ./act.sh"
 
 # git aliases:
 alias ga="git add"
