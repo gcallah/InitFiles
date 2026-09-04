@@ -7,6 +7,8 @@ set softtabstop=4
 set undofile
 set undodir=~/.vim/undodir
 
+set signcolumn=no
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
