@@ -1,5 +1,9 @@
 # some common make targets
 
+# make a PDF from Word:
+%.pdf: %.docx
+	pandoc -o $@ -f docx -t pdf $*.docx --pdf-engine=xelatex
+
 # make a Word doc from markdown:
 %.docx: %.md
 	pandoc -o $@ -f markdown -t docx $*.md
