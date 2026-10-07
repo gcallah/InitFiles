@@ -44,10 +44,10 @@ export PYTHONDONTWRITEBYTECODE=1
 
 # set up aliases:
 alias pro=". ~/.bash_profile"
-cd $HOME; . ./alias.sh
+. "$HOME/alias.sh"
 
 # things we don't want to put in repo:
-cd $HOME; . ./private.sh
+. "$HOME/private.sh"
 
 # Setting PATH for Python 3.14
 # The original version is saved in .bash_profile.pysave
