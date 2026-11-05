@@ -6,7 +6,7 @@
 
 # make a Word doc from markdown:
 %.docx: %.md
-	pandoc -o $@ -f markdown -t docx $*.md
+	pandoc -o $@ -f markdown -t docx --resource-path=.:$(dir $<) $*.md
 
 # make a markdown doc from Word:
 %.md: %.docx
