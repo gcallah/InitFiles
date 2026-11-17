@@ -14,3 +14,5 @@ First search the `graphics` folder for an image with a similar name. If nothing
 is found there, then search the Internet for a suitable image. If you find an
 image, download it and place it in the `graphics` folder. If you cannot find a suitable image, leave the placeholder as is.
 
+Images mixed in with text should never take up the entire width of the page.
+Limit them to about 66% of the width.
