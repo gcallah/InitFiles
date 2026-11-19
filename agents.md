@@ -16,3 +16,9 @@ image, download it and place it in the `graphics` folder. If you cannot find a s
 
 Images mixed in with text should never take up the entire width of the page.
 Limit them to about 66% of the width.
+
+Apply DRY (Don't Repeat Yourself) principles everywhere.
+
+Don't hardcode things like color values, page widths, etc. except in a single
+place they are defined as constants. This will make it easier to change them later if needed.
+
